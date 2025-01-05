@@ -1,0 +1,36 @@
+.header{
+  background-image: url(../../../assets/img/bg-mosaico-01.png);
+  background-size: cover;
+  background-position: center;
+  padding: 72px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-content{
+  text-align: center;
+  width: fit-content;
+  padding: 72px 96px;
+  background-color: rgb(217, 229, 232, 0.3);
+  color: #05201C;
+}
+
+.title-green, .title-white{
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+.title-white{
+  color: #EBEBEB;
+}
+
+.house-values{
+  font-size: 24px;
+  font-weight: 300;
+  margin: 0;
+  padding: 8px 0;
+}
