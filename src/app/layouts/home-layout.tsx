@@ -1,4 +1,4 @@
-import { NavLink, Outlet } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import Home from '../pages/home';
 
 export default function HomeLayout () {
@@ -7,7 +7,7 @@ export default function HomeLayout () {
       <header>
         <nav className='nav'>
           <div>
-            <NavLink to="home" className='brand'> 
+            <NavLink to='/home' className='brand'> 
               <span className='brand-green'>Slytherin</span> 
               <span className='brand-white'>House</span>
             </NavLink>
