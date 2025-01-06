@@ -1,4 +1,5 @@
 import './App.css'
+import '../assets/material-ui-overrides.css'
 
 // pages imports
 import CommomRoom from './pages/commom-room';
