@@ -2,7 +2,7 @@ import './App.css'
 import '../assets/material-ui-overrides.css'
 
 // pages imports
-import CommomRoom from './pages/commom-room';
+import CommonRoom from './pages/common-room';
 import Characters from './pages/characters';
 
 // layouts imports
@@ -22,7 +22,7 @@ const router = createBrowserRouter(
   createRoutesFromElements( 
     <Route path="/" element={<RootLayout />} >
       <Route path="/home" element={<HomeLayout />}>
-        <Route path="commom-room" element={<CommomRoom />} />
+        <Route path="common-room" element={<CommonRoom />} />
         <Route path="characters" element={<Characters />}/>
       </Route>
     </Route>

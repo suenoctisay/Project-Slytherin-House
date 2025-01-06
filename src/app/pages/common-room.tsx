@@ -6,7 +6,7 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
-const CommomRoom = () => {
+const CommonRoom = () => {
   return (
     <div className='accordion'>
       <Accordion defaultExpanded className='accordion-item'>
@@ -17,7 +17,7 @@ const CommomRoom = () => {
           <div className='common-room'>
             <div className='place'>
               <img className='place-photo' src='/src/assets/img/cr-common-room.png' alt='common-room' />
-              <p className='place-name'>Commom Room</p>
+              <p className='place-name'>common Room</p>
             </div>
             <div className='place'>
               <img className='place-photo'  src='/src/assets/img/cr-dormitory.png' alt='dormitory' />
@@ -30,4 +30,4 @@ const CommomRoom = () => {
   )
 }
 
-export default CommomRoom
+export default CommonRoom
