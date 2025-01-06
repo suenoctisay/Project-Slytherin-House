@@ -15,7 +15,7 @@ export default function HomeLayout () {
             </NavLink>
           </div>
           <div>
-            <NavLink className='nav-itens' to="common-room">common Room</NavLink>
+            <NavLink className='nav-itens' to="common-room">Common Room</NavLink>
             <NavLink className='nav-itens' to="characters">Characters</NavLink>
           </div>
         </nav> 
