@@ -1,0 +1,137 @@
+/********************************************************************************************************************************/
+/*-- COMPONENTS --*/
+.accordion {
+  margin: 24px 32px;
+  padding: 0;
+}
+/********************************************************************************************************************************/
+
+
+
+/********************************************************************************************************************************/
+/*-- PHRASES --*/
+.bg-phrases-01{
+  background-image: url(../../assets/img/bg-mosaico-02.png);
+  color: #05201C;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 32px;
+}
+
+.bg-phrases-02{
+  background-image: url(../../assets/img/bg-flag.png);
+  color: #05201C;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 32px;
+}
+
+
+.bg-opacity{
+  background-color: rgb(235,235,235, 0.3);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 32px;
+  margin: 32px;
+}
+
+.phrase{
+  display: grid;
+  justify-items: end;
+  align-items: end;
+}
+
+.quote-01{
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  max-width: 600px;
+}
+
+.quote-02{
+  font-size: 56px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.author{
+  font-size: 20px;
+  font-weight: 300;
+  width: 350px;
+  display: flex;
+  justify-content: end;
+  text-align: end;
+}
+/********************************************************************************************************************************/
+
+
+
+/********************************************************************************************************************************/
+/*-- CHARACTERS PAGE --*/
+.characters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border-top: 1px solid #05201C;
+}	
+
+.person {
+  margin: 16px;
+  padding: 16px;
+  border-radius: 5px;
+  max-width: 200px;
+  text-align: center;
+}	
+
+.person-photo{
+  border-radius: 50%;
+  box-shadow: 5px 5px 25px #718785;
+}
+
+.person-name {
+  color: #05201C;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.person-description {
+  color: #718785;
+  font-size: 16px;
+}
+/********************************************************************************************************************************/
+
+
+
+/********************************************************************************************************************************/
+/*-- COMMON ROOM PAGE --*/
+.common-room {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border-top: 1px solid #05201C;
+}	
+
+.place {
+  margin: 16px;
+  padding: 16px;
+  border-radius: 5px;
+  text-align: center;
+}	
+
+.place-photo{
+  box-shadow: 5px 5px 25px #718785;
+}
+
+.place-name {
+  color: #05201C;
+  font-size: 32px;
+  font-weight: 700;
+  padding: 4px 0;
+}
+/********************************************************************************************************************************/
+
+

@@ -1,0 +1,28 @@
+/********************************************************************************************************************************/
+/*-- ACCORDION --*/
+
+.css-1f1pi2l-MuiButtonBase-root-MuiAccordionSummary-root,
+.css-1f1pi2l-MuiButtonBase-root-MuiAccordionSummary-root.Mui-expanded{
+  color: #718785 !important;
+  padding: 0 32px !important;
+  min-height: fit-content !important;
+}
+
+.css-1wqf3nl-MuiAccordionSummary-expandIconWrapper,
+.css-1wqf3nl-MuiAccordionSummary-expandIconWrapper.Mui-expanded{
+  color: #718785 !important;
+}
+
+.css-yfrx4k-MuiAccordionSummary-content.Mui-expanded{
+  margin: 16px 0 0 0 !important;
+}
+
+.css-rizt0-MuiTypography-root{
+  font-size: 24px !important;
+  text-transform: uppercase;
+}
+
+.css-1lj39kh-MuiAccordionDetails-root{
+  padding: 0 32px 24px 32px !important;
+}	
+/********************************************************************************************************************************/
